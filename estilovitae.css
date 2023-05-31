@@ -1,0 +1,104 @@
+
+/*Estilo Global*/
+*{
+    color:#222121; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+
+/*Este estilo edita todo los titulos*/
+.titulo{
+    color:#110292; 
+    text-align: center;
+}
+
+/*Este estilo edita mi foto de perfil*/
+#Profile{
+    border-radius: 10px;
+    border: 5px inset #110292 ; 
+}
+
+
+/*Este estilo edita los titulos secundarios*/
+.titulo2{
+    color:#110292; 
+    
+}
+
+/*Este estilo edita mi Info Personal */
+.PersonalData{
+    text-align: center; 
+    
+}
+
+/*Este estilo ajusta los espacios de los Estudios*/
+.contenedorEstudios{
+    display:flex;     
+}
+
+#Primaria{
+    margin: 0px 150px 0px 350px; 
+    text-align: center;   
+}
+
+#Secundaria{
+    margin: 0 150px;
+    text-align: center;    
+}
+
+#Universitarios{
+    margin: 0 150px;   
+    text-align: center;  
+}
+
+/*Este estilo ajusta los espacios de las Habilidades*/
+.contenedorHabilidades{
+    display:flex;     
+}
+
+.HardSkills{
+    margin: 0px 150px 0px 350px; 
+    text-align: center;   
+}
+
+.SoftSkills{
+    margin: 0px 150px 0px 350px; 
+    text-align: center;   
+}
+
+/*Este estilo ajusta los espacios de la Tabla de Habilidades Duras*/
+.TablaHS {
+    text-align: left;   
+}
+
+th {
+    background-color:aquamarine;
+    border-bottom: solid 5px #222121;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}
+
+/*Este estilo edita el texto Quiero Plata*/
+#Txtquieroplata{
+    text-align: center;   
+}
+
+
+.LinksRedes {
+    text-align: center;
+}
+
+
+
+/*text align : center es para centrar el texto*/
+/*h3{
+    display:inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    
+}*/
+/*Revisar Bosquejo Word*/ 
